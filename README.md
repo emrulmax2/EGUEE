@@ -12,7 +12,7 @@ Eguee - A codeigniter token management system which is a quee management system 
 
 * Neep PHP (5.5+), Mysql (5.4) and Apache server
 * copy the files in your server folder where you want to install
-* when installation script running, inset the database details and admin credential
+* when installation script running, insert the database details and admin credential
 * Run and deploy.
 
 ### Contribution guidelines ###
