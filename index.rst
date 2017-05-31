@@ -1,24 +1,41 @@
-# README #
+$project
+========
 
-London College Student Management System. 
+$project will solve your problem of where to start with documentation,
+by providing a basic explanation of how to do it easily.
 
-### What is this repository for? ###
+Look how easy it is to use:
 
-* A Student management system for College Education.
-* Version 2.0 (BETA)
-* [Check Documenttaton](https://londonchurchillcollege.com/tutorials/)
+    import project
+    # Get your stuff done
+    project.do_stuff()
 
-### How do I get set up? ###
+Features
+--------
 
-* Neep PHP (5.5+), Mysql (5.6) and Apache server
-* copy the files in your server folder where you want to install
-* when installation script running, inset the database details and admin credential
-* Run and deploy.
+- Be awesome
+- Make things faster
 
-### Contribution guidelines ###
+Installation
+------------
 
-* If anyone contribute this script names will be added.
+Install $project by running:
 
-### Who do I talk to? ###
+    install project
 
-* skype: emrulmax2 and mail: emrulmax2@gmail.com.com
+Contribute
+----------
+
+- Issue Tracker: github.com/$project/$project/issues
+- Source Code: github.com/$project/$project
+
+Support
+-------
+
+If you are having issues, please let us know.
+We have a mailing list located at: project@google-groups.com
+
+License
+-------
+
+The project is licensed under the MIT license.
