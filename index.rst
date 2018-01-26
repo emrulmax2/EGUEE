@@ -1,39 +1,43 @@
-$project
+Eguee - a codeigniter quee management stystem
 ========
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
+Eguee - A codeigniter quee management system which is a quee management system with excelent touchscreen setup. 
 
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
+	* Token Management System is a quee management system for company's visitors management.
+	* Version 2.0
+	* for demo visit. http://eguee.com/demo/
 
 Features
 --------
 
-- Be awesome
-- Make things faster
+- Visitors Panel for generate token
+- Counter Panel
+- Admin panel
 
 Installation
 ------------
 
-Install $project by running:
+Install Eguee follow the below steps:
 
-    install project
+- Neep PHP (5.5+), Mysql (5.4) and Apache server
+- copy the files in your server folder where you want to install
+- when installation script running, insert the database details and admin credential
+- Run and deploy.
 
 Contribute
 ----------
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
+
+* If anyone contribute this script names will be added.
+
 
 Support
 -------
 
 If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
+We have a mailing list located at: info@kweehost.com
+
+For Commercial purpose call skype: emrulmax2
 
 License
 -------
