@@ -18,6 +18,7 @@ class CreateProductsTable extends Migration
             $table->string('productname');
             $table->string('sku');
             $table->float('price');
+            $table->string('currency');
             $table->text('description');
             $table->timestamps();
         });
