@@ -1,5 +1,5 @@
 <?php
-
+Use App\Products;
 use Illuminate\Http\Request;
 
 /*
@@ -17,9 +17,16 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::post('register', 'Auth\RegisterController@register');
+Route::post('login', 'Auth\LoginController@login');
+Route::post('logout', 'Auth\LoginController@logout');
 
-Route::get('products', 'ProductController@index');
-Route::get('products/{product}', 'ProductController@show');
-Route::post('products', 'ProductController@store');
-Route::put('products/{product}', 'ProductController@update');
-Route::delete('products/{product}', 'ProductController@delete');
+Route::group(['middleware' => 'auth:api'], function() {
+    
+    Route::get('products', 'ProductController@index');
+    Route::get('products/{product}', 'ProductController@show');
+    Route::post('products', 'ProductController@store');
+    Route::put('products/{product}', 'ProductController@update');
+    Route::delete('products/{product}', 'ProductController@delete');
+    
+});

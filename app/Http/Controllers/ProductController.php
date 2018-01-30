@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Products;
+use App\Http\Controllers\Auth;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -9,6 +10,7 @@ class ProductController extends Controller
 
     public function index()
     {
+        
         return Products::all();
     }
  
